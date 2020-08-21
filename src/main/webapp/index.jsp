@@ -12,7 +12,7 @@ Surname: <mak:input field="surname" />
 <mak:submit/>
 </mak:newForm>
 
-<h1>List of persons- to dispay</h1>
+<h1>List of person</h1>
 <mak:list from="general.Person p">
   <mak:value expr="p.name + ' ' + p.surname" /><br/>
 </mak:list>
